@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
 body {
   margin-bottom: 50px;
   background-color: F6D6D6;
   font-family: "Courier New", Courier, monospace;
 }
 
-li {
+.nav-bar li {
   display: inline;
 }
 
@@ -17,7 +20,7 @@ nav{
  
 }
 
-li a {
+.nav-bar li a {
   color: #666;
   padding: 10px;
   text-decoration: none;
@@ -80,4 +83,94 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
+}
+
+
+.emp-box{
+  border: 2px solid grey;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.container-icons-contact{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  border: 2px solid grey;
+  border-radius: 20px;
+}
+
+.container-sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.box1-sign,
+.box2-sign {
+  margin: 50px;
+}
+
+.form-design {
+  background-color: white;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.login-tag, .form-tag{
+    padding: 5px 50px 5px 50px;
+    
+}
+
+
+input {
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #c7c7c7;
+  color: #c7c7c7;
+}
+
+.form-design input[type="submit"] {
+  border: none;
+  background-color: pink;
+  border-radius: 20px;
+  padding: 13px;
+  color: white;
+  
+}
+
+.box1-sign {
+    display: flex;
+  font-size: 5rem;
+  color: white;
+  font-weight:500;
+}
+
+.box0-sign {
+    border: 20px;
+    margin: 20px;
+    width: 10px;
+    height: 30vh;
+    border-radius: 20px;
+    background-color: white;
+    color: white;
+    padding: 5px;
+}
+
+hr{
+    margin-bottom: 20px;
+    border-color: rgb(255, 255, 255); 
+}
+
+.bold-font{
+  font-family: "Protest";
+}
+
+.about-font{
+  font-family: "Dancing Script", cursive;
+  font-size: 18px;
 }
